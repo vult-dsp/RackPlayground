@@ -4,14 +4,14 @@ else
 	VULTC_EXE = vultc
 endif
 
-ifeq (, $(shell which $(VULTC_EXE)))
-	ifeq (,$(wildcard ./$(VULTC_EXE)))
+ifeq (,$(wildcard ./$(VULTC_EXE)))
+	ifeq (, $(shell which $(VULTC_EXE)))
 		VULT_CMD =
 	else
-		VULT_CMD = ./$(VULTC_EXE)
+		VULT_CMD = $(VULTC_EXE)
 	endif
 else
-	VULT_CMD = $(VULTC_EXE)
+	VULT_CMD = ./$(VULTC_EXE)
 endif
 
 ifeq (, $(VULT_CMD))
