@@ -1,0 +1,20 @@
+{
+   "slug": "RackPlayground",
+   "name": "RackPlayground",
+   "version": "1.0.0",
+   "license": "MIT",
+   "brand": "Unofficial",
+   "author": "",
+   "authorEmail": "",
+   "authorUrl": "",
+   "pluginUrl": "",
+   "manualUrl": "",
+   "sourceUrl": "",
+   "donateUrl": "",
+   "modules": [{
+      "slug": "Playground",
+      "name": "Playground",
+      "description": "I do nothing",
+      "tags": []
+   }]
+}

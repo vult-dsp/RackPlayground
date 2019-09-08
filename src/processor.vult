@@ -1,0 +1,24 @@
+
+
+fun process(in1:real, in2:real, in3:real, in4:real) {
+   mem param1, param2, param3, param4;
+
+   val out1, out2, out3, out4 = in1, in2, in3, in4;
+
+   // put your code here
+   out1 = in1 * param1 + (1.0 - param1) * in2;
+
+   return out1, out2, out3, out4;
+}
+and setParam1(knob, mod, input) {
+   param1 = clip(knob + mod * input, 0.0, 1.0);
+}
+and setParam2(knob, mod, input) {
+   param2 = clip(knob + mod * input, 0.0, 1.0);
+}
+and setParam3(knob, mod, input) {
+   param3 = clip(knob + mod * input, 0.0, 1.0);
+}
+and setParam4(knob, mod, input) {
+   param4 = clip(knob + mod * input, 0.0, 1.0);
+}
