@@ -90,7 +90,7 @@ void Playground::process(const ProcessArgs &args) {
       Processor_setParam4(processor, knob4, mod4, mod_in4);
    }
 
-   Processor_process(processor, in1, in2, in3, in4);
+   Processor_process(processor, in1, in2, in3, in4, args.sampleRate);
 
    outputs[OUT1].setVoltage(Processor_process_ret_0(processor) * 10.0f);
    outputs[OUT2].setVoltage(Processor_process_ret_1(processor) * 10.0f);

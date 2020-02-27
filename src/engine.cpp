@@ -16,7 +16,7 @@ void Processor__ctx_type_0_init(Processor__ctx_type_0 &_output_){
    return ;
 }
 
-void Processor_process(Processor__ctx_type_0 &_ctx, float in1, float in2, float in3, float in4){
+void Processor_process(Processor__ctx_type_0 &_ctx, float in1, float in2, float in3, float in4, float fs){
    float out1;
    float out2;
    float out3;

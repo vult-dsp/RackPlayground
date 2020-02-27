@@ -1,6 +1,6 @@
 
 
-fun process(in1:real, in2:real, in3:real, in4:real) {
+fun process(in1:real, in2:real, in3:real, in4:real, fs:real) {
    mem param1, param2, param3, param4;
 
    val out1, out2, out3, out4 = in1, in2, in3, in4;

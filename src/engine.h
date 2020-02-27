@@ -34,7 +34,7 @@ static_inline void Processor_process_init(Processor__ctx_type_0 &_output_){
    return ;
 }
 
-void Processor_process(Processor__ctx_type_0 &_ctx, float in1, float in2, float in3, float in4);
+void Processor_process(Processor__ctx_type_0 &_ctx, float in1, float in2, float in3, float in4, float fs);
 
 typedef Processor__ctx_type_0 Processor_process_ret_0_type;
 
